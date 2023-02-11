@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <form action= "/discount" method = "POST">
+    <select id =  "operation" name = "operation"
+        <option value = "total">add</option>
+        <option value = "subtract">sub</option> 
+        {% comment %} <option value = "total">add</option>    {% endcomment %}
+      </select>
+      <input type = "text" name = "price1" id = "price1">
+      <input type = "text" name = "price2" id = "price2">
+      <input type = "text" name = "price3" id = "price3">
+      <input type = "text" name = "price4" id = "price4">
+      <input type = "submit" value = "Calculate">
+    </form>
+</body>
+
+</html>
